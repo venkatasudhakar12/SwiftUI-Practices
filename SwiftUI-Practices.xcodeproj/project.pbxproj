@@ -16,6 +16,7 @@
 		9E15C39D246959A800D45231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E15C39C246959A800D45231 /* Assets.xcassets */; };
 		9E15C3A0246959A800D45231 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E15C39F246959A800D45231 /* Preview Assets.xcassets */; };
 		9E15C3A3246959A800D45231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E15C3A1246959A800D45231 /* LaunchScreen.storyboard */; };
+		9E4829E3246C034C0093E9DE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4829E2246C034C0093E9DE /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9E15C39F246959A800D45231 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E15C3A2246959A800D45231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E15C3A4246959A800D45231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4829E2246C034C0093E9DE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		9E15C395246959A600D45231 /* SwiftUI-Practices */ = {
 			isa = PBXGroup;
 			children = (
+				9E4829E1246C02810093E9DE /* Login */,
 				9E031507246AB027002E7321 /* menu.json */,
 				9E15C396246959A600D45231 /* AppDelegate.swift */,
 				9E15C398246959A600D45231 /* SceneDelegate.swift */,
@@ -90,6 +93,14 @@
 				9E15C39F246959A800D45231 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E4829E1246C02810093E9DE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9E4829E2246C034C0093E9DE /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4829E3246C034C0093E9DE /* LoginView.swift in Sources */,
 				9E031505246AAF7A002E7321 /* Item.swift in Sources */,
 				9E031503246AAF3E002E7321 /* FoodMenu.swift in Sources */,
 				9E15C397246959A600D45231 /* AppDelegate.swift in Sources */,
