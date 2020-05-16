@@ -62,6 +62,8 @@
 		9E15C38A246959A600D45231 = {
 			isa = PBXGroup;
 			children = (
+				9E031506246AAF86002E7321 /* FoodMenu */,
+				9E4829E1246C02810093E9DE /* Login */,
 				9EF7F2E5246EBDEC003D38DC /* Charactars */,
 				9E15C395246959A600D45231 /* SwiftUI-Practices */,
 				9E15C394246959A600D45231 /* Products */,
@@ -79,12 +81,9 @@
 		9E15C395246959A600D45231 /* SwiftUI-Practices */ = {
 			isa = PBXGroup;
 			children = (
-				9EF7F2DC246EABCC003D38DC /* AutoValidating  */,
-				9E4829E1246C02810093E9DE /* Login */,
 				9E031507246AB027002E7321 /* menu.json */,
 				9E15C396246959A600D45231 /* AppDelegate.swift */,
 				9E15C398246959A600D45231 /* SceneDelegate.swift */,
-				9E031506246AAF86002E7321 /* FoodMenu */,
 				9E15C39C246959A800D45231 /* Assets.xcassets */,
 				9E15C3A1246959A800D45231 /* LaunchScreen.storyboard */,
 				9E15C3A4246959A800D45231 /* Info.plist */,
@@ -190,7 +189,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EF7F2E2246EB2D4003D38DC /* ViewRouter.swift in Sources */,
 				9E4829E3246C034C0093E9DE /* LoginView.swift in Sources */,
 				9EF7F2E7246EBE40003D38DC /* CharactersCountView.swift in Sources */,
 				9E031505246AAF7A002E7321 /* Item.swift in Sources */,
@@ -199,7 +197,6 @@
 				9EF7F2E9246EBEEF003D38DC /* TextFieldManager.swift in Sources */,
 				9E03150A246AB334002E7321 /* MenuViewModel.swift in Sources */,
 				9E15C399246959A600D45231 /* SceneDelegate.swift in Sources */,
-				9EF7F2E4246EB3B8003D38DC /* MotherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
