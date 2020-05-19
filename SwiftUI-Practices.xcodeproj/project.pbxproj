@@ -19,7 +19,13 @@
 		9E172821246F752B00A71016 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E172820246F752B00A71016 /* PickerView.swift */; };
 		9E172824246F791700A71016 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E172823246F791700A71016 /* NavigationBarView.swift */; };
 		9E2CD74F246FAC1C002C329B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CD74E246FAC1C002C329B /* TabBarView.swift */; };
+		9E2CD75C246FB491002C329B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CD75B246FB491002C329B /* DrawingView.swift */; };
 		9E4829E3246C034C0093E9DE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4829E2246C034C0093E9DE /* LoginView.swift */; };
+		9E4E8B9A24714F5300224169 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E8B9924714F5300224169 /* ApiCall.swift */; };
+		9E51FF31246FDF440028F4B6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51FF30246FDF440028F4B6 /* MenuView.swift */; };
+		9E51FF33246FE71F0028F4B6 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51FF32246FE71F0028F4B6 /* DemoView.swift */; };
+		9E74A1F124704CDB0079DA76 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E74A1F024704CDB0079DA76 /* Practice.swift */; };
+		9EEB306124710E2100C146F7 /* SwiftUIpractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB306024710E2100C146F7 /* SwiftUIpractice.swift */; };
 		9EF7F2E7246EBE40003D38DC /* CharactersCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7F2E6246EBE40003D38DC /* CharactersCountView.swift */; };
 		9EF7F2E9246EBEEF003D38DC /* TextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7F2E8246EBEEF003D38DC /* TextFieldManager.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +45,13 @@
 		9E172820246F752B00A71016 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		9E172823246F791700A71016 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		9E2CD74E246FAC1C002C329B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		9E2CD75B246FB491002C329B /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		9E4829E2246C034C0093E9DE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9E4E8B9924714F5300224169 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		9E51FF30246FDF440028F4B6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9E51FF32246FE71F0028F4B6 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		9E74A1F024704CDB0079DA76 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		9EEB306024710E2100C146F7 /* SwiftUIpractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIpractice.swift; sourceTree = "<group>"; };
 		9EF7F2E6246EBE40003D38DC /* CharactersCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCountView.swift; sourceTree = "<group>"; };
 		9EF7F2E8246EBEEF003D38DC /* TextFieldManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +80,8 @@
 		9E15C38A246959A600D45231 = {
 			isa = PBXGroup;
 			children = (
+				9E2CD75B246FB491002C329B /* DrawingView.swift */,
+				9E51FF30246FDF440028F4B6 /* MenuView.swift */,
 				9E2CD74D246FABFB002C329B /* TabBar */,
 				9E172822246F78F700A71016 /* NavigationBar */,
 				9E17281F246F74EB00A71016 /* PickerView */,
@@ -129,6 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				9E2CD74E246FAC1C002C329B /* TabBarView.swift */,
+				9E51FF32246FE71F0028F4B6 /* DemoView.swift */,
+				9E74A1F024704CDB0079DA76 /* Practice.swift */,
+				9EEB306024710E2100C146F7 /* SwiftUIpractice.swift */,
+				9E4E8B9824714F1200224169 /* Combine */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -139,6 +157,14 @@
 				9E4829E2246C034C0093E9DE /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		9E4E8B9824714F1200224169 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				9E4E8B9924714F5300224169 /* ApiCall.swift */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		9EF7F2E5246EBDEC003D38DC /* Charactars */ = {
@@ -225,14 +251,20 @@
 				9E4829E3246C034C0093E9DE /* LoginView.swift in Sources */,
 				9E2CD74F246FAC1C002C329B /* TabBarView.swift in Sources */,
 				9EF7F2E7246EBE40003D38DC /* CharactersCountView.swift in Sources */,
+				9E74A1F124704CDB0079DA76 /* Practice.swift in Sources */,
+				9E2CD75C246FB491002C329B /* DrawingView.swift in Sources */,
+				9E4E8B9A24714F5300224169 /* ApiCall.swift in Sources */,
 				9E172821246F752B00A71016 /* PickerView.swift in Sources */,
+				9EEB306124710E2100C146F7 /* SwiftUIpractice.swift in Sources */,
 				9E031505246AAF7A002E7321 /* Item.swift in Sources */,
 				9E172824246F791700A71016 /* NavigationBarView.swift in Sources */,
+				9E51FF31246FDF440028F4B6 /* MenuView.swift in Sources */,
 				9E031503246AAF3E002E7321 /* FoodMenu.swift in Sources */,
 				9E15C397246959A600D45231 /* AppDelegate.swift in Sources */,
 				9EF7F2E9246EBEEF003D38DC /* TextFieldManager.swift in Sources */,
 				9E03150A246AB334002E7321 /* MenuViewModel.swift in Sources */,
 				9E15C399246959A600D45231 /* SceneDelegate.swift in Sources */,
+				9E51FF33246FE71F0028F4B6 /* DemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
