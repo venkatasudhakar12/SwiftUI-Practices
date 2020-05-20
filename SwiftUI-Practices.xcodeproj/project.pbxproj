@@ -30,6 +30,7 @@
 		9E61D2192473CDEE0078837E /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E61D2182473CDEE0078837E /* PhotosViewModel.swift */; };
 		9E74A1F124704CDB0079DA76 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E74A1F024704CDB0079DA76 /* Practice.swift */; };
 		9EAA88692474EAA100DCA86B /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA88682474EAA100DCA86B /* PracticeView.swift */; };
+		9EAA886B2475048A00DCA86B /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA886A2475048A00DCA86B /* Challenge1.swift */; };
 		9EEB306124710E2100C146F7 /* SwiftUIpractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB306024710E2100C146F7 /* SwiftUIpractice.swift */; };
 		9EF7F2E7246EBE40003D38DC /* CharactersCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7F2E6246EBE40003D38DC /* CharactersCountView.swift */; };
 		9EF7F2E9246EBEEF003D38DC /* TextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7F2E8246EBEEF003D38DC /* TextFieldManager.swift */; };
@@ -61,6 +62,7 @@
 		9E61D2182473CDEE0078837E /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
 		9E74A1F024704CDB0079DA76 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		9EAA88682474EAA100DCA86B /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		9EAA886A2475048A00DCA86B /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
 		9EEB306024710E2100C146F7 /* SwiftUIpractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIpractice.swift; sourceTree = "<group>"; };
 		9EF7F2E6246EBE40003D38DC /* CharactersCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCountView.swift; sourceTree = "<group>"; };
 		9EF7F2E8246EBEEF003D38DC /* TextFieldManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldManager.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9EAA88682474EAA100DCA86B /* PracticeView.swift */,
+				9EAA886A2475048A00DCA86B /* Challenge1.swift */,
 				9E61D2152473CD7C0078837E /* Photos */,
 				9E2CD75B246FB491002C329B /* DrawingView.swift */,
 				9E51FF30246FDF440028F4B6 /* MenuView.swift */,
@@ -277,6 +280,7 @@
 				9E2CD74F246FAC1C002C329B /* TabBarView.swift in Sources */,
 				9EF7F2E7246EBE40003D38DC /* CharactersCountView.swift in Sources */,
 				9EAA88692474EAA100DCA86B /* PracticeView.swift in Sources */,
+				9EAA886B2475048A00DCA86B /* Challenge1.swift in Sources */,
 				9E74A1F124704CDB0079DA76 /* Practice.swift in Sources */,
 				9E2CD75C246FB491002C329B /* DrawingView.swift in Sources */,
 				9E4E8B9A24714F5300224169 /* ApiCall.swift in Sources */,
